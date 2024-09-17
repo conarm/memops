@@ -16,6 +16,16 @@ This project involves the implementation of custom versions of the malloc and fr
 
 This implementation emphasizes efficiency and robustness, making it a valuable learning experience in understanding low-level memory management, pointer arithmetic, and system calls within the xv6 operating system.
 
+## Installation
+
+### Dependencies
+
+ - xv6 OS - this can be installed from with `git clone git://github.com/mit-pdos/xv6-riscv.git`. The official site can be found [here](https://pdos.csail.mit.edu/6.828/2024/xv6.html)
+
+## Running
+
+xv6 must be recompiled once the malloc and free implementations are added into the repository. The functions can then be used by applications running on xv6
+
 ## References:
 
  - Arpaci-Dusseau, RH and AC. 2018. _Operating Systems: Three Easy Pieces._ [Online]. 1st ed. Arpaci-Dusseau Books. [Accessed 26 November 2022]. Available from: https://pages.cs.wisc.edu/~remzi/OSTEP/vm-freespace.pdf
